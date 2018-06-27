@@ -1,0 +1,13 @@
+<p>
+  home works!
+</p>
+
+<form name="accoutData" id="accoutData" (ngSubmit)="addAccount(account.value)" #account="ngForm">
+Name<input type="text" name="aName" [(ngModel)]="aName">
+<br />
+ID<input type="text" name="aID" [(ngModel)]="aID">
+<br />
+Balance<input type="text" name="aBalance" [(ngModel)]="aBalance">
+<br />
+<input type="submit">
+</form>
